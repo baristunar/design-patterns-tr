@@ -1,7 +1,7 @@
-# Skeleton Pattern
+# Singleton Pattern
 *Uygulamamız boyunca tek bir global instance’ı paylaşın.*
 
-![Skeleton Pattern](./assets/skeleton-pattern.png)
+![Singleton Pattern](./assets/singleton-pattern.png)
 
 Singleton’lar, tek bir instance’ı olan ve global olarak erişilebilen sınıflardır. *Tek instance*, uygulamamız genelinde paylaşılabilir, bu da Singletonları bir uygulamada global state’i yönetmek için harika kılar.
 
@@ -59,7 +59,7 @@ console.log(counter1.getInstance() === counter2.getInstance());
 
 `new` metodunu iki kez çağırarak `counter1` ve `counter2` değişkenlerini iki farklı instance’a eşitledik. `counter1` ve `counter2` 'nin `getInstance` metodu tarafından döndürülen değerler, etkin bir şekilde farklı instancelara referanslar döndürdü: bunlar kesinlikle eşit değiller!
 
-![Skeleton Pattern](./assets/skeleton-gif-1.gif)
+![Singleton Pattern](./assets/singleton-gif-1.gif)
 
 Şimdi `Counter` tek bir kez oluşturulduğundan emin olalım. Yalnızca bir instance’ın oluşturulabileceğinden emin olmanın bir yolu, `instance` adlı bir değişken oluşturmaktır. `Counter` ‘ın `constructor` metodunda bir instance oluşturulduğunda, `instance` ‘ı bir `instance`’a referans olarak atayabiliriz. `instance` değişkenin zaten bir değeri olup olmadığını kontrol ederek yeni instance oluşumlarını önleyebiliriz. Eğer bir instance zaten varsa bu olmamalı: kullanıcıyı durumdan haberdar etmek için hata fırlatılmalıdır.
 
@@ -134,7 +134,7 @@ export default singletonCounter;
 
 Hem `blueButton.js` hem de `redButton.js`, aynı instance’ı `counter.js` ‘den içe aktarır. Bu instance, her iki dosyada da `Counter` olarak içe aktarılır.
 
-![Skeleton Pattern](./assets/skeleton-gif-2.gif)
+![Singleton Pattern](./assets/singleton-gif-2.gif)
 
 `redButton.js` veya `blueButton.js` dosyasında artırma metodunu çağırdığımızda, `Counter` instance’ındaki `counter` özelliğinin değeri her iki dosyada da güncellenir. **Kırmızı** veya **mavi** buttona tıklamamızın bir önemi yok: aynı değer **tüm instancelar** arasında paylaşılıyor. Bu nedenle, yöntemi farklı dosyalarda çağırıyor olmamıza rağmen, `counter` birer birer artmaya devam ediyor.
 
