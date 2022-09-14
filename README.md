@@ -8,3 +8,4 @@ Tasarım kalıpları, yazılımda karşımıza çıkan yaygın sorunlara tipik �
 
 * [Singleton Pattern](./design-patterns/singleton-pattern/README.md)
 * [Provider Pattern](./design-patterns/provider-pattern/README.md)
+* [Container/ Presentational Pattern](./design-patterns/container-presentational/README.md)
