@@ -95,6 +95,6 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 
 ### Katkıda Bulunanlar ❤️🚀
 
-<a href="https://github.com/baristunar/patterns-dev-tr/">
-  <img src="https://contrib.rocks/image?repo=baristunar/patterns-dev-tr"/>
+<a href="https://github.com/baristunar/design-patterns-tr/">
+  <img src="https://contrib.rocks/image?repo=baristunar/design-patterns-tr"/>
 </a>
