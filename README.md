@@ -45,7 +45,7 @@ Aşağıdaki tasarım kalıpları Yapısal tasarım kalıplarına örnektir;
 * Facade
 * Flyweight
 * Private Class Data
-* Proxy
+* [Proxy](./design-patterns/proxy-pattern/README.md)
 ---
 ## Behavioral design patterns (Davranışsal tasarım kalıpları)
 
@@ -92,7 +92,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 
 ---
 
-### Katkıda Bulunanlar <3
+### Katkıda Bulunanlar ❤️🚀
 
 <a href="https://github.com/baristunar/patterns-dev-tr/">
   <img src="https://contrib.rocks/image?repo=baristunar/patterns-dev-tr"/>
