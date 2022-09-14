@@ -34,7 +34,7 @@ export default function DogImages({ dogs }) {
 }
 ```
 
-DogsImages adlı bileşen bir sunum bileşendir. Sunum bileşenlerinin genelde state'ler olmadan çalışırlar: kullanıcı arayüzü tarafında yapılacak olan değişiklikler için kullanılan state'ler haricinde, kendilerine ait React state'leri yoktur.
+`DogsImages` adlı bileşen bir sunum bileşendir. Sunum bileşenlerinin genelde state'ler olmadan çalışırlar: kullanıcı arayüzü tarafında yapılacak olan değişiklikler için kullanılan state'ler haricinde, kendilerine ait React state'leri yoktur.
 
 Sunum bileşenleri verilerini kapsayıcı bileşenlerden alır.
 
@@ -42,7 +42,7 @@ Sunum bileşenleri verilerini kapsayıcı bileşenlerden alır.
 
 Kapsayıcı bileşenlerin birincil işlevi, verileri kapsadıkları sunum bileşenlerine aktarmaktır. Kapsayıcı bileşenler genellikle sorumlu oldukları veriyi aktardıkları bileşen haricinde herhangi bir bileşeni render etmezler. Bir render işlemine dahil olmadıkları için de herhangi bir stilize işlemi görmezler.
 
-Yaptığımız örnekte, köpek görsellerini DogsImages sunum bileşenine göndermek istiyoruz. Bunu yapmadan önce, görüntüleri harici bir API'dan almamız gerekiyor. Bu verileri getirebileceğimiz bir kapsayıcı bileşen oluşturmamız ve verileri ekranda göstermek adına DogsImages bileşenine aktarmamız gerekiyor.
+Yaptığımız örnekte, köpek görsellerini `DogsImages` sunum bileşenine göndermek istiyoruz. Bunu yapmadan önce, görüntüleri harici bir API'dan almamız gerekiyor. Bu verileri getirebileceğimiz bir kapsayıcı bileşen oluşturmamız ve verileri ekranda göstermek adına DogsImages bileşenine aktarmamız gerekiyor.
 
 ```js
 import React from "react";
@@ -74,7 +74,7 @@ Bu iki bileşeni birleştirerek görünüm ve uygulama mantığını ayrıştır
 
 Birçok durumda, Container/Presentational modeli React Hookları ile değiştirilebilir. Hookların çıkması ile birlikte herhangi bir kapsayıcı bileşen kullanmadan kolaylıkla benzer bir sonuç elde edeceğimiz bir yapı oluşturabiliyoruz.
 
-Çekeceğimiz veriyi DogsImagesContainer bileşeninde getirmektense, custom bir hook oluşturup veriyi burada çekebilir ve bunu bir dizi olarak döndürebiliriz.
+Çekeceğimiz veriyi `DogsImagesContainer` bileşeninde getirmektense, custom bir hook oluşturup veriyi burada çekebilir ve bunu bir dizi olarak döndürebiliriz.
 
 ```js
 export default function useDogImages() {
@@ -90,7 +90,7 @@ export default function useDogImages() {
 }
 ```
 
-Bu custom hook'u kullanacağımız için artık DogsImagesContainer bileşeninin DogsImages bileşenini kapsamasına ihtiyacımız yok. Bunun yerine yazdığımız hook'u doğrudan DogsImages bileşeni içerisinde çağırabiliriz.
+Bu custom hook'u kullanacağımız için artık `DogsImagesContainer` bileşeninin DogsImages bileşenini kapsamasına ihtiyacımız yok. Bunun yerine yazdığımız hook'u doğrudan `DogsImages` bileşeni içerisinde çağırabiliriz.
 
 ```js
 import React from "react";
@@ -122,12 +122,14 @@ export default function useDogImages() {
 }
 ```
 
-useDogImages hook'unu kullanarak, uygulama mantığı ve görünüm katmanlarını ayırmış olduk. DogsImages bileşenindeki verileri değiştirmeden yarattığımız hook'tan gelen verileri kullanıyoruz.
+`useDogImages` hook'unu kullanarak, uygulama mantığı ve görünüm katmanlarını ayırmış olduk. `DogsImages` bileşenindeki verileri değiştirmeden yarattığımız hook'tan gelen verileri kullanıyoruz.
 
 ![](./img/screenshots/9.png)
 ![](./img/screenshots/10.png)
 
 Hooklar sayesinde uygulamanın mantık ve görünüm katmanlarını ayırmak oldukça basitleşti. Bu sayede sunum bileşenini kapsayıcı bileşen ile sardığımız ekstra katmanı aradan çıkartabiliyoruz.
+
+---
 
 ### Artılar
 
