@@ -7,4 +7,5 @@ Tasarım kalıpları, yazılımda karşımıza çıkan yaygın sorunlara tipik �
 ## Tasarım Kalıpları
 
 * [Singleton Pattern](./design-patterns/singleton-pattern/README.md)
+* [Container/ Presentational Pattern](./container-presentational/container-presentational.md)
 
