@@ -14,11 +14,11 @@ Diyelim ki; 6 adet köpek görselini bir API üzerinden çekerek, bu görselleri
 
 2. **Container Components (Kapsayıcı Bileşenler):** Kullanıcıya hangi verilerin gösterileceğini önemseyen bileşenler. Örnek olarak; köpek görsellerini bir API üzerinden çekmek.
 
-![](./img/screenshots/1.png)
+![](./assets/screenshots/1.png)
 
-![](./img/screenshots/2.png)
+![](./assets/screenshots/2.png)
 
-![](./img/screenshots/3.png)
+![](./assets/screenshots/3.png)
 
 Köpek görsellerini bir kaynaktan getirmek uygulamanın mantığı (application logic) ile ilgiliyken, bu kaynaktan alınan görsellerin kullanıcıya ne şekilde sunulacağı yalnızca görünüm (view) ile ilgilidir.
 
@@ -124,8 +124,8 @@ export default function useDogImages() {
 
 `useDogImages` hook'unu kullanarak, uygulama mantığı ve görünüm katmanlarını ayırmış olduk. `DogsImages` bileşenindeki verileri değiştirmeden yarattığımız hook'tan gelen verileri kullanıyoruz.
 
-![](./img/screenshots/9.png)
-![](./img/screenshots/10.png)
+![](./assets/screenshots/9.png)
+![](./assets/screenshots/10.png)
 
 Hooklar sayesinde uygulamanın mantık ve görünüm katmanlarını ayırmak oldukça basitleşti. Bu sayede sunum bileşenini kapsayıcı bileşen ile sardığımız ekstra katmanı aradan çıkartabiliyoruz.
 
