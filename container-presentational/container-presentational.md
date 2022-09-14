@@ -146,7 +146,3 @@ Saf fonksiyonlar oldukları için, sunumsal bileşenleri test etmek kolaydır.
 Container/Presentational modeli, uygulamanın mantığı ve görünümünü separation of concerns prensiplerine uygun bir şekilde geliştirmeye izin verse de aynı yapıyı React Hooklar ile daha basit bir mantık ile kurabiliriz.
 
 Container/Presentational modeli, React Hooklarını kullanarak geliştirilse bile küçük boyutlu uygulamada kullanmak için uygun olmayabilir.
-
-```
-
-```
