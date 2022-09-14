@@ -1,5 +1,11 @@
 ## Proxy Pattern
 
+---
+
+Bu yazı [patterns.dev](https://www.patterns.dev/posts/proxy-pattern/)'den çevirilmiş.
+
+---
+
 *Hedef nesnelerle etkileşimleri durdurun ve kontrol edin.*
 
 ![Proxy Pattern](./assets/proxy-pattern.jpg)
