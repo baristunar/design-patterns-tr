@@ -1,4 +1,11 @@
 # Singleton Pattern
+
+---
+
+Bu yazı [patterns.dev](https://www.patterns.dev/posts/singleton-pattern/)'den çevirilmiştir.
+
+---
+
 *Uygulamamız boyunca tek bir global instance’ı paylaşın.*
 
 ![Singleton Pattern](./assets/singleton-pattern.png)

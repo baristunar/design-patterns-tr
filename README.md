@@ -68,6 +68,8 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 ### İçindekiler
 
 * [Singleton Pattern](./design-patterns/singleton-pattern/README.md)
+* [Proxy Pattern](./design-patterns/proxy-pattern/README.md)
+* [Provider Pattern](./design-patterns/provider-pattern/README.md)
 * [Container/ Presentational Pattern](./design-patterns/container-presentational/README.md)
 ---
 ### Nasıl Katkıda bulunabilirim?
