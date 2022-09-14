@@ -16,7 +16,7 @@ Genel olarak konuşursak, bir vekil başka biri için vekil anlamına gelir. Bu 
 
 John Doe’yu temsil eden bir `person` nesnesi oluşturalım.
 
-```
+```js
 const person = {
   name: "John Doe",
   age: 42,
@@ -26,7 +26,7 @@ const person = {
 
 Bu nesneyle doğrudan etkileşim kurmak yerine, bir proxy nesnesi ile etkileşim kurmak istiyoruz. JavaScript’te, `Proxy` sınıfını kullanarak `new Proxy()` ilekolayca yeni bir `proxy` oluşturabiliriz.
 
-```
+```js
 const person = {
   name: "John Doe",
   age: 42,
@@ -46,7 +46,7 @@ Efektik olarak sonunda olacak ise şudur:
 
 `person` nesnesiyle doğrudan etkileşim kurmak yerine, `personProxy` ile etkileşime geçeceğiz. `personProxy` 'ye handlerlar (işleyiciler) ekleyelim. Bir özelliği değiştirmeye çalışırken, böylece `Proxy`’de `set` metodunu çağırırken, proxy’nin özelliğin önceki değerini ve yeni değerini günlüğe (loglara) kaydetmesini istiyoruz. Bir özelliğe erişmeye çalışırken, böylece `Proxy`‘de `get` metodunu çağırırken, proxy’nin özelliğin anahtarını ve değerini içeren daha okunabilir bir cümleyi günlüğe kaydetmesini istiyoruz.
 
-```
+```js
 const personProxy = new Proxy(person, {
   get: (obj, prop) => {
     console.log(`The value of ${prop} is ${obj[prop]}`);
@@ -72,7 +72,7 @@ Bu kısımdaki kodlara [codesandbox](https://codesandbox.io/embed/cocky-bird-rkg
 
 Validasyon eklemek için bir proxy yararlı olabilir. Bir kullanıcı, `person` nesnesinin yaşını bir string veri değeriyle değiştirememeli veya onlara boş bir ad vermemelidir. Veya kullanıcı, nesne üzerinde var olmayan bir özelliğe erişmeye çalışıyorsa bunu kullanıcıya bildirmeliyiz.
 
-```
+```js
 const personProxy = new Proxy(person, {
   get: (obj, prop) => {
     if (!obj[prop]) {
@@ -113,7 +113,7 @@ JavaScript, proxy’lerle çalışırken hedef nesneyi değiştirmemizi kolayla�
 
 Özelliklere `obj[prop]` aracılığıyla erişmek veya özellikleri `obj[prop] = value` aracılığıyla ayarlamak yerine, `Reflect.get()` ve `Reflect.set()` aracılığıyla hedef nesnedeki özelliklere erişebilir veya bunları değiştirebiliriz. Yöntemler, handler nesnesindeki yöntemlerle aynı argümanları alır.
 
-```
+```js
 const personProxy = new Proxy(person, {
   get: (obj, prop) => {
     console.log(`The value of ${prop} is ${Reflect.get(obj, prop)}`);

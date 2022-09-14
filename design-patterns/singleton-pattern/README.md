@@ -22,7 +22,7 @@ Singleton’lar, tek bir instance’ı olan ve global olarak erişilebilen sın�
 
 * `counter` ‘ın değerini bir azaltan `decrement` metodu
 
-```
+```js
 let counter = 0;
 class Counter {
   getInstance() {
@@ -42,7 +42,7 @@ class Counter {
 
 Ancak bu sınıf, Singleton kriterlerini karşılamıyor! Bir Singleton instance’ı **yalnızca bir kez** oluşturulabilir.
 
-```
+```js
 let counter = 0;
 class Counter {
   getInstance() {
@@ -70,7 +70,7 @@ console.log(counter1.getInstance() === counter2.getInstance());
 
 Şimdi `Counter` tek bir kez oluşturulduğundan emin olalım. Yalnızca bir instance’ın oluşturulabileceğinden emin olmanın bir yolu, `instance` adlı bir değişken oluşturmaktır. `Counter` ‘ın `constructor` metodunda bir instance oluşturulduğunda, `instance` ‘ı bir `instance`’a referans olarak atayabiliriz. `instance` değişkenin zaten bir değeri olup olmadığını kontrol ederek yeni instance oluşumlarını önleyebiliriz. Eğer bir instance zaten varsa bu olmamalı: kullanıcıyı durumdan haberdar etmek için hata fırlatılmalıdır.
 
-```
+```js
 let instance;
 let counter = 0;
 class Counter {
@@ -102,7 +102,7 @@ Mükemmel! Artık birden fazla instance oluşturamayız.
 
 `counter` instance’ını `counter.js` dosyasından dışa aktaralım. Ancak bunu yapmadan önce örneği de dondurmalıyız ([Object.freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze?retiredLocale=tr)). The `Object.freeze` metodu, kodun tüketilmesinin Singleton’ı değiştirememesini sağlar. Dondurulmuş instance’taki özellikler eklenemez veya değiştirilemez, bu da Singleton’daki değerlerin yanlışlıkla üzerine yazma riskini azaltır.
 
-```
+```js
 let instance;
 let counter = 0;
 class Counter {

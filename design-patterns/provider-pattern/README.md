@@ -20,7 +20,7 @@ Diyelim ki belirli verileri içeren bir `App` componentimiz var. Component ağac
 
 Kod tabanımızda bu, aşağıdaki gibi görünecektir:
 
-```
+```js
 function App() {
   const data = { ... }
   return (
@@ -52,7 +52,7 @@ Bu verileri kullanması gerekmeyen tüm component katmanlarını atlayabilseydik
 
 Provider, aktarmak istediğimiz verileri içeren bir `value` propu alır. Bu provider ile sarmallanmış *tüm* componentlerin, `value` prop değerine erişimi vardır.
 
-```
+```js
 const DataContext = React.createContext()
 function App() {
   const data = { ... }
@@ -71,7 +71,7 @@ Artık data propu her bir componente manuel olarak aktarmamız gerekmiyor! Peki 
 
 Her component, `useContext` kancasını (hook) kullanarak `data` değerine erişebilir. Bu hook, verilerin bu durumda `DataContext` ile referans aldığı bağlamı alır. `useContext` hooku, bağlam nesnesine veri okumamızı ve yazmamızı sağlar.
 
-```
+```js
 const DataContext = React.createContext();
 function App() {
   const data = { ... }
@@ -115,7 +115,7 @@ Bu kısımdaki kodlara [codesandbox](https://codesandbox.io/embed/busy-oskar-ifz
 
 Kullanıcının, light mod ve dark mod arasında geçiş yapabilmesini istiyoruz. Kullanıcı dark moddan light moda geçtiğinde ve tam tersi olduğunda, arka plan rengi ve metin rengi değişmelidir! Mevcut tema değerini her bir componente aktarmak yerine, componentleri bir `ThemeProvider` ilesarabilir ve mevcut tema renklerini provider’a iletebiliriz.
 
-```
+```js
 export const ThemeContext = React.createContext();
 const themes = {
   light: {
@@ -145,13 +145,13 @@ export default function App() {
     </div>
   );
 }
-````
+```
 
 `Toggle` ve `List` componentlerinin her ikisi de `ThemeContext` providerı ile sarmallandığından , providera bir `value` olarak iletilen `theme` değerine ve `toggleTheme`'e erişebiliyoruz.
 
 `Toggle` componenti içinde, temayı uygun şekilde güncellemek için `toggleTheme` fonksiyonunu kullanabiliriz.
 
-```
+```js
 import React, { useContext } from "react";
 import { ThemeContext } from "./App";
 
@@ -165,11 +165,11 @@ export default function Toggle() {
     </label>
   );
 }
-````
+```
 
 `List` componentinin kendisi, temanın mevcut değeriyle ilgilenmez. Ancak, `ListItem` componentleri yapar! Tema içeriğini doğrudan `ListItem` içinde kullanabiliriz.
 
-```
+```js
 import React, { useContext } from "react";
 import { ThemeContext } from "./App";
 
@@ -177,7 +177,7 @@ export default function TextBox() {
   const theme = useContext(ThemeContext);
 
   return <li style={theme.theme}>...</li>;
-  ````
+  ```
 
 ---
 
@@ -189,7 +189,7 @@ Bu kısımdaki kodlara [codesandbox](https://codesandbox.io/embed/quirky-sun-9dj
 
 Componentlere bağlam(context) sağlamak için bir hook oluşturabiliriz. Her componentte `useContext` ve Context ‘i içe aktarmak yerine, ihtiyacımız olan bağlamı döndüren bir hook kullanabiliriz.
 
-```
+```js
 function useThemeContext() {
   const theme = useContext(ThemeContext);
   return theme;
@@ -198,7 +198,7 @@ function useThemeContext() {
 
 Geçerli bir tema olduğundan emin olmak için `useContext(ThemeContext)` falsy bir değer döndürürse bir hata atalım.
 
-```
+```js
 function useThemeContext() {
   const theme = useContext(ThemeContext);
   if (!theme) {
@@ -206,11 +206,11 @@ function useThemeContext() {
   }
   return theme;
 }
-````
+```
 
 Componentleri doğrudan `ThemeContext.Provider` componenti ile sarmak yerine, componentin değerlerini sağlamak için saran bir [HOC (Higher Order Component)](https://reactjs.org/docs/higher-order-components.html) oluşturabiliriz. Bu şekilde, içerik mantığını (context logic), sağlayıcının yeniden kullanılabilirliğini artıran render etme componentlerinden ayırabiliriz.
 
-```
+```js
 function ThemeProvider({children}) {
   const [theme, setTheme] = useState("dark");
 
@@ -240,10 +240,10 @@ export default function App() {
     </div>
   );
 }
-````
+```
 `ThemeContext`‘e erişmesi gereken her component artık `useThemeContext` hookunu kullanabilir.
 
-```
+```js
 export default function TextBox() {
   const theme = useThemeContext();
 
@@ -267,7 +267,7 @@ Styled-componentler  bizim için bir `ThemeProvider` sağlarlar. Her *styled com
 
 Aynı List örneğini kullanalım ve componentleri `styled-component` kütüphanesinden içe aktarılan `ThemeProvider` ile saralım.
 
-```
+```js
 import { ThemeProvider } from "styled-components";
 
 export default function App() {
@@ -288,11 +288,11 @@ export default function App() {
     </div>
   );
 }
-````
+```
 
 `ListItem` componentine bir satır içi `style` propu aktarmak yerine, onu bir `styled.li` componenti yapacağız. Styled component olduğu için `theme` değerine erişebiliriz!
 
-```
+```js
 import styled from "styled-components";
 
 export default function ListItem() {
