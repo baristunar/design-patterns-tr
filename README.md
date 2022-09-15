@@ -14,15 +14,9 @@ Ayrıca kalıplar, geliştiricilerin yazılım etkileşimleri için iyi bilinen,
 
 Tasarım kalıpları 3 ayrı kategoride toplanmaktadır. Bunlar;
 
-- [Design Patterns (Tasarım Kalıpları, Tasarım Desenleri)](#design-patterns-tasarım-kalıpları-tasarım-desenleri)
-  - [Tasarım Kalıplarının Kullanımları](#tasarım-kalıplarının-kullanımları)
   - [Creational design patterns (Yaratıcı tasarım kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
   - [Structural design patterns (Yapısal tasarım kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
   - [Behavioral design patterns (Davranışsal tasarım kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
-    - [İçindekiler](#i̇çindekiler)
-    - [Nasıl Katkıda bulunabilirim?](#nasıl-katkıda-bulunabilirim)
-    - [Katkıda bulunurken dikkat edilmesi gerekenler](#katkıda-bulunurken-dikkat-edilmesi-gerekenler)
-    - [Katkıda Bulunanlar ❤️🚀](#katkıda-bulunanlar-️)
 
 ---
 
