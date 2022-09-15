@@ -113,6 +113,8 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
     <tr>
       <td align="center"><a href="https://github.com/baristunar"><img src="https://avatars.githubusercontent.com/u/58105650?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Barış Tunar</b></sub></a><br /><a href="#translation-baristunar" title="Translation">🌍</a></td>
       <td align="center"><a href="https://www.linkedin.com/in/serdar-gül-ba5352126/"><img src="https://avatars.githubusercontent.com/u/11051271?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Serdar GÜL</b></sub></a><br /><a href="#translation-coderserdar" title="Translation">🌍</a></td>
+      <td align="center"><a href="https://www.linkedin.com/in/aycanogut/"><img src="https://avatars.githubusercontent.com/u/74212439?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aycan Öğüt</b></sub></a><br /><a href="#translation-aycanogut" title="Translation">🌍</a></td>
+      <td align="center"><a href="cengiz.rocks"><img src="https://avatars.githubusercontent.com/u/13690848?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cengiz C. Mataracı</b></sub></a><br /><a href="#translation-cengizcmataraci" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
