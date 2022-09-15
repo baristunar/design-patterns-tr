@@ -81,8 +81,8 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 ### Nasıl Katkıda bulunabilirim?
 
 1. Projeyi forklayın.
-2. [issues](https://github.com/baristunar/patterns-dev-tr/issues) bölümünden boştaki bir taskı üzerinize assign edip bir branch açın ve çevirinize başlayabilirsiniz.
-3. Not: Assing etmeniz önemlidir çünkü bir başkası aynı taskı alıp çevirisini yapabilir. Bu durumda kimse mağdur olsun istemeyiz.
+2. [Issues](https://github.com/baristunar/patterns-dev-tr/issues) bölümünden boştaki bir taskı üzerinize assign edip bir branch açın ve çevirinize başlayabilirsiniz.
+3. Assign etmeniz önemlidir çünkü bir başkası aynı taskı alıp çevirisini yapabilir. Bu durumda kimse mağdur olsun istemeyiz.
 4. Issuelardaki konular dışında farklı bir pattern çevirisi yapacaksanız kendiniz de issue açıp çevirinize başlayabilirsiniz.
 5. Çeviriniz bittikten sonra pull request açabilirsiniz.
 6. Çeviri dışında destek olmak isterseniz farklı programlama dillerinde halihazırda çevirisi bulunan patternlere kod örnekleri paylaşabilirsiniz.
