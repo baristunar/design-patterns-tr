@@ -29,7 +29,7 @@ Aşağıdaki tasarım kalıpları Yaratıcı tasarım kalıplarına örnektir;
 - Abstract Factory
 - [Builder](./design-patterns/builder-pattern/README.md)
 - Factory Method
-- Prototype
+- [Prototype](./design-patterns/prototype-pattern/README.md)
 - [Singleton](./design-patterns/singleton-pattern/README.md)
 
 ---
@@ -78,6 +78,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Container/ Presentational Pattern](./design-patterns/container-presentational-pattern/README.md)
 - [Module Pattern](./design-patterns/module-pattern/README.md)
 - [Builder Pattern](./design-patterns/builder-pattern/README.md)
+- [Prototype Pattern](./design-patterns/prototype-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
