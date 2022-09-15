@@ -14,9 +14,15 @@ Ayrıca kalıplar, geliştiricilerin yazılım etkileşimleri için iyi bilinen,
 
 Tasarım kalıpları 3 ayrı kategoride toplanmaktadır. Bunlar;
 
-- [Creational design patterns (Yaratıcı tasarım kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
-- [Structural design patterns (Yapısal tasarım kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
-- [Behavioral design patterns (Davranışsal tasarım kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
+- [Design Patterns (Tasarım Kalıpları, Tasarım Desenleri)](#design-patterns-tasarım-kalıpları-tasarım-desenleri)
+  - [Tasarım Kalıplarının Kullanımları](#tasarım-kalıplarının-kullanımları)
+  - [Creational design patterns (Yaratıcı tasarım kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
+  - [Structural design patterns (Yapısal tasarım kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
+  - [Behavioral design patterns (Davranışsal tasarım kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
+    - [İçindekiler](#i̇çindekiler)
+    - [Nasıl Katkıda bulunabilirim?](#nasıl-katkıda-bulunabilirim)
+    - [Katkıda bulunurken dikkat edilmesi gerekenler](#katkıda-bulunurken-dikkat-edilmesi-gerekenler)
+    - [Katkıda Bulunanlar ❤️🚀](#katkıda-bulunanlar-️)
 
 ---
 
@@ -27,7 +33,7 @@ Bu tasarım kalıpları tamamen sınıf somutlaştırma ile ilgilidir. Bu model 
 Aşağıdaki tasarım kalıpları Yaratıcı tasarım kalıplarına örnektir;
 
 - Abstract Factory
-- Builder
+- [Builder](./design-patterns/builder-pattern/README.md)
 - Factory Method
 - Prototype
 - [Singleton](./design-patterns/singleton-pattern/README.md)
@@ -77,6 +83,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Provider Pattern](./design-patterns/provider-pattern/README.md)
 - [Container/ Presentational Pattern](./design-patterns/container-presentational-pattern/README.md)
 - [Module Pattern](./design-patterns/module-pattern/README.md)
+- [Builder Pattern](./design-patterns/builder-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
