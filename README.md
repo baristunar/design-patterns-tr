@@ -1,6 +1,6 @@
 # Design Patterns (Tasarım Kalıpları, Tasarım Desenleri)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Design Patterns](./assets/design-patterns.png)
@@ -112,6 +112,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/baristunar"><img src="https://avatars.githubusercontent.com/u/58105650?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Barış Tunar</b></sub></a><br /><a href="#translation-baristunar" title="Translation">🌍</a></td>
+      <td align="center"><a href="cengiz.rocks"><img src="https://avatars.githubusercontent.com/u/13690848?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cengiz C. Mataracı</b></sub></a><br /><a href="#translation-cengizcmataraci" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
