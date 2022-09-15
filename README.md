@@ -102,6 +102,12 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 
 ### Katkıda Bulunanlar ❤️🚀
 
-<a href="https://github.com/baristunar/design-patterns-tr/">
-  <img src="https://contrib.rocks/image?repo=baristunar/design-patterns-tr"/>
-</a>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
