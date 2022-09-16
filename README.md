@@ -43,8 +43,8 @@ Aşağıdaki tasarım kalıpları Yapısal tasarım kalıplarına örnektir;
 - Adapter
 - Bridge
 - Composite
-- Decorator
 - [Facade](./design-patterns/facade-pattern/README.md)
+- [Decorator](./design-patterns/decorator-pattern/README.md)
 - Flyweight
 - Private Class Data
 - [Proxy](./design-patterns/proxy-pattern/README.md)
@@ -80,6 +80,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Builder Pattern](./design-patterns/builder-pattern/README.md)
 - [Prototype Pattern](./design-patterns/prototype-pattern/README.md)
 - [Facade Pattern](./design-patterns/facade-pattern/README.md)
+- [Decorator Pattern](./design-patterns/decorator-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
