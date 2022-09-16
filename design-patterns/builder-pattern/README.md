@@ -146,6 +146,71 @@ Yukarıda kaynak kod olarak tanımlanan sınıfların ilişki şeması da aşağ
 
 ![](./assets/screenshots/3.png)
 
+##### Başka Bir Örnek (E-Posta) Yapısı
+
+**E-Mail** sınıfı:
+```cs
+public class Email
+{
+  public string To { get; set; }
+  public string From { get; set; }
+  public string Subject { get; set; }
+  public string Body { get; set; }
+}
+```
+
+**E-Mail Builder** sınıfı:
+```cs
+public class EmailBuilder
+{
+  private readonly Email _email;
+  public EmailBuilder()
+  {
+    _email = new Email();
+  }
+
+  public EmailBuilder To(string address)
+  {
+    _email.To = address;
+    return this;
+  }
+
+  public EmailBuilder From(string address)
+  {
+    _email.From = address;
+    return this;
+  }
+
+  public EmailBuilder Subject(string title)
+  {
+    _email.Subject = title;
+    return this;
+  }
+
+  public EmailBuilder Body(string content)
+  {
+    _email.Body = content;
+    return this;
+  }
+
+  public Email Build()
+  {
+    return _email;
+  }
+}
+```
+
+**Kullanım Örneği**:
+```cs
+var emailBuilder = new EmailBuilder();
+var email = emailBuilder
+  .To("serdargul@outlook.com")
+  .From("baristunar@gmail.com")
+  .Subject("Builder Pattern")
+  .Body("Commit message")
+  .Build();
+```
+
 Bu tasarım örüntüsün avantajları da aşağıda belirtilmiştir.
 
 - Karmaşık bir nesnenin nasıl yaratıldığı gizlenmiş olur.
