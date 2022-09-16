@@ -40,7 +40,7 @@ Bu tasarım kalıpları tamamen Sınıf (`Class`) ve Nesne (`Object`) kompozisyo
 
 Aşağıdaki tasarım kalıpları Yapısal tasarım kalıplarına örnektir;
 
-- Adapter
+- [Adapter](./design-patterns/adapter-pattern/README.md)
 - Bridge
 - Composite
 - [Decorator](./design-patterns/decorator-pattern/README.md)
@@ -80,6 +80,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Builder Pattern](./design-patterns/builder-pattern/README.md)
 - [Prototype Pattern](./design-patterns/prototype-pattern/README.md)
 - [Decorator Pattern](./design-patterns/decorator-pattern/README.md)
+- [Adapter Pattern](./design-patterns/adapter-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
