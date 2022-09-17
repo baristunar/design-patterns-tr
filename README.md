@@ -82,6 +82,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Facade Pattern](./design-patterns/facade-pattern/README.md)
 - [Decorator Pattern](./design-patterns/decorator-pattern/README.md)
 - [Adapter Pattern](./design-patterns/adapter-pattern/README.md)
+- [Factory Pattern](./design-patterns/factory-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
