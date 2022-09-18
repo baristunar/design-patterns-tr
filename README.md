@@ -14,9 +14,9 @@ Ayrıca kalıplar, geliştiricilerin yazılım etkileşimleri için iyi bilinen,
 
 Tasarım kalıpları 3 ayrı kategoride toplanmaktadır. Bunlar;
 
-  - [Creational design patterns (Yaratıcı tasarım kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
-  - [Structural design patterns (Yapısal tasarım kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
-  - [Behavioral design patterns (Davranışsal tasarım kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
+- [Creational design patterns (Yaratıcı tasarım kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
+- [Structural design patterns (Yapısal tasarım kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
+- [Behavioral design patterns (Davranışsal tasarım kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
 
 ---
 
@@ -83,6 +83,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Decorator Pattern](./design-patterns/decorator-pattern/README.md)
 - [Adapter Pattern](./design-patterns/adapter-pattern/README.md)
 - [Factory Pattern](./design-patterns/factory-pattern/README.md)
+- [HOC Pattern](./design-patterns/hoc-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
