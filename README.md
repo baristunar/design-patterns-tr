@@ -14,13 +14,13 @@ Ayrıca kalıplar, geliştiricilerin yazılım etkileşimleri için iyi bilinen,
 
 Tasarım kalıpları 3 ayrı kategoride toplanmaktadır. Bunlar;
 
-  - [Creational design patterns (Yaratıcı tasarım kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
-  - [Structural design patterns (Yapısal tasarım kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
-  - [Behavioral design patterns (Davranışsal tasarım kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
+- [Creational Design Patterns (Yaratıcı Tasarım Kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
+- [Structural Design Patterns (Yapısal Tasarım Kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
+- [Behavioral Design Patterns (Davranışsal Tasarım Kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
 
 ---
 
-## Creational design patterns (Yaratıcı tasarım kalıpları)
+## Creational Design Patterns (Yaratıcı Tasarım Kalıpları)
 
 Bu tasarım kalıpları tamamen sınıf somutlaştırma ile ilgilidir. Bu model ayrıca sınıf yaratma kalıpları ve nesne yaratma kalıplarına ayrılabilir. Sınıf oluşturma kalıpları, örnekleme sürecinde kalıtımı etkin bir şekilde kullanırken, nesne oluşturma kalıpları işi yapmak için yetkilendirmeyi etkili bir şekilde kullanır.
 
@@ -34,7 +34,7 @@ Aşağıdaki tasarım kalıpları Yaratıcı tasarım kalıplarına örnektir;
 
 ---
 
-## Structural design patterns (Yapısal tasarım kalıpları)
+## Structural Design Patterns (Yapısal Tasarım Kalıpları)
 
 Bu tasarım kalıpları tamamen Sınıf (`Class`) ve Nesne (`Object`) kompozisyonu ile ilgilidir. Yapısal sınıf oluşturma kalıpları, arabirimleri oluşturmak için kalıtımı kullanır. Yapısal nesne kalıpları, yeni işlevsellik elde etmek için nesneleri oluşturmanın yollarını tanımlar.
 
@@ -51,7 +51,7 @@ Aşağıdaki tasarım kalıpları Yapısal tasarım kalıplarına örnektir;
 
 ---
 
-## Behavioral design patterns (Davranışsal tasarım kalıpları)
+## Behavioral Design Patterns (Davranışsal Tasarım Kalıpları)
 
 Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. Davranış kalıpları, nesneler arasındaki iletişimle en özel olarak ilgilenen kalıplardır.
 
@@ -83,6 +83,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Decorator Pattern](./design-patterns/decorator-pattern/README.md)
 - [Adapter Pattern](./design-patterns/adapter-pattern/README.md)
 - [Factory Pattern](./design-patterns/factory-pattern/README.md)
+- [HOC Pattern](./design-patterns/hoc-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
@@ -100,7 +101,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - Readme dosyasına kod bloklarını **image** olarak yüklemeyiniz. Örnek kullanım `console.log("Hello World")`
 - Her bir patternin **"Design Patterns"** klasöründe patternin adıyla klasörü açılmalıdır.
 - Görsel dosyaları yine patternin kendi klasörü altında **assets** klasöründe depolayınız.
-- Son olarak ana readme dosyasında çevirisini yaptığınız patternin klasörüne ilgili pattern [İçindekiler](#i̇çindekiler) bölümünde ve patternin ilgili kategorisinde linklenmelidir. Bkz. [Creational Desing Patterns](#creational-design-patterns-yaratıcı-tasarım-kalıpları), [Structural design patterns](#structural-design-patterns-yapısal-tasarım-kalıpları), [Behavioral design patterns](#behavioral-design-patterns-davranışsal-tasarım-kalıpları).
+- Son olarak ana readme dosyasında çevirisini yaptığınız patternin klasörüne ilgili pattern [İçindekiler](#i̇çindekiler) bölümünde ve patternin ilgili kategorisinde linklenmelidir. Bkz. [Creational Design Patterns](#creational-design-patterns-yaratıcı-tasarım-kalıpları), [Structural Design Patterns](#structural-design-patterns-yapısal-tasarım-kalıpları), [Behavioral Design Patterns](#behavioral-design-patterns-davranışsal-tasarım-kalıpları).
 - Bir çeviri eklerken kaynak belirtmeyi unutmayınız.
 
 ---
