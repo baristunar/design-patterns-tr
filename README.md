@@ -101,7 +101,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - Readme dosyasına kod bloklarını **image** olarak yüklemeyiniz. Örnek kullanım `console.log("Hello World")`
 - Her bir patternin **"Design Patterns"** klasöründe patternin adıyla klasörü açılmalıdır.
 - Görsel dosyaları yine patternin kendi klasörü altında **assets** klasöründe depolayınız.
-- Son olarak ana readme dosyasında çevirisini yaptığınız patternin klasörüne ilgili pattern [İçindekiler](#i̇çindekiler) bölümünde ve patternin ilgili kategorisinde linklenmelidir. Bkz. [Creational Desing Patterns](#creational-design-patterns-yaratıcı-tasarım-kalıpları), [Structural design patterns](#structural-design-patterns-yapısal-tasarım-kalıpları), [Behavioral design patterns](#behavioral-design-patterns-davranışsal-tasarım-kalıpları).
+- Son olarak ana readme dosyasında çevirisini yaptığınız patternin klasörüne ilgili pattern [İçindekiler](#i̇çindekiler) bölümünde ve patternin ilgili kategorisinde linklenmelidir. Bkz. [Creational Design Patterns](#creational-design-patterns-yaratıcı-tasarım-kalıpları), [Structural Design Patterns](#structural-design-patterns-yapısal-tasarım-kalıpları), [Behavioral Design Patterns](#behavioral-design-patterns-davranışsal-tasarım-kalıpları).
 - Bir çeviri eklerken kaynak belirtmeyi unutmayınız.
 
 ---
