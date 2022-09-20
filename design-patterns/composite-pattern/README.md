@@ -76,7 +76,6 @@ public class FileLogger : ILogger
 var compositeLogger = new CompositeLogger(new ConsoleLogger(), new FileLogger());
 // yukarıdaki satırla, hem konsola hem de dosyaya tek satırda loglama yaoabilmesi sağlanmaktadır
 compositeLogger.Log("some message");
-FileLogger
 ```
 
 
