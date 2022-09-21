@@ -48,7 +48,7 @@ Aşağıdaki tasarım kalıpları Yapısal tasarım kalıplarına örnektir;
 - Flyweight
 - Private Class Data
 - [Proxy](./design-patterns/proxy-pattern/README.md)
-
+- [Render Props Pattern](./design-patterns/render-props-pattern/README.md)
 ---
 
 ## Behavioral design patterns (Davranışsal tasarım kalıpları)
@@ -77,7 +77,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Provider Pattern](./design-patterns/provider-pattern/README.md)
 - [Container/ Presentational Pattern](./design-patterns/container-presentational-pattern/README.md)
 - [Module Pattern](./design-patterns/module-pattern/README.md)
-
+- [Render Props Pattern](./design-patterns/render-props-pattern/README.md)
 ### Nasıl Katkıda bulunabilirim?
 
 1. Projeyi forklayın.
