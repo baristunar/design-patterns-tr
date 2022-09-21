@@ -14,9 +14,15 @@ Ayrıca kalıplar, geliştiricilerin yazılım etkileşimleri için iyi bilinen,
 
 Tasarım kalıpları 3 ayrı kategoride toplanmaktadır. Bunlar;
 
-- [Creational Design Patterns (Yaratıcı Tasarım Kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
-- [Structural Design Patterns (Yapısal Tasarım Kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
-- [Behavioral Design Patterns (Davranışsal Tasarım Kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
+- [Design Patterns (Tasarım Kalıpları, Tasarım Desenleri)](#design-patterns-tasarım-kalıpları-tasarım-desenleri)
+  - [Tasarım Kalıplarının Kullanımları](#tasarım-kalıplarının-kullanımları)
+  - [Creational Design Patterns (Yaratıcı Tasarım Kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
+  - [Structural Design Patterns (Yapısal Tasarım Kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
+  - [Behavioral Design Patterns (Davranışsal Tasarım Kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
+    - [İçindekiler](#i̇çindekiler)
+    - [Nasıl Katkıda bulunabilirim?](#nasıl-katkıda-bulunabilirim)
+    - [Katkıda bulunurken dikkat edilmesi gerekenler](#katkıda-bulunurken-dikkat-edilmesi-gerekenler)
+    - [Katkıda Bulunanlar ❤️🚀](#katkıda-bulunanlar-️)
 
 ---
 
@@ -42,7 +48,7 @@ Aşağıdaki tasarım kalıpları Yapısal tasarım kalıplarına örnektir;
 
 - [Adapter](./design-patterns/adapter-pattern/README.md)
 - Bridge
-- Composite
+- [Composite](./design-patterns/composite-pattern/README.md)
 - [Facade](./design-patterns/facade-pattern/README.md)
 - [Decorator](./design-patterns/decorator-pattern/README.md)
 - Flyweight
@@ -84,6 +90,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Adapter Pattern](./design-patterns/adapter-pattern/README.md)
 - [Factory Pattern](./design-patterns/factory-pattern/README.md)
 - [HOC Pattern](./design-patterns/hoc-pattern/README.md)
+- [Composite Pattern](./design-patterns/composite-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
