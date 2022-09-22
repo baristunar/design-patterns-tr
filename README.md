@@ -26,7 +26,7 @@ Bu tasarım kalıpları tamamen sınıf somutlaştırma ile ilgilidir. Bu model 
 
 Aşağıdaki tasarım kalıpları Yaratıcı tasarım kalıplarına örnektir;
 
-- Abstract Factory
+- [Abstract Factory](./design-patterns/abstract-factory/README.md)
 - [Builder](./design-patterns/builder-pattern/README.md)
 - Factory Method
 - [Prototype](./design-patterns/prototype-pattern/README.md)
@@ -85,6 +85,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Factory Pattern](./design-patterns/factory-pattern/README.md)
 - [HOC Pattern](./design-patterns/hoc-pattern/README.md)
 - [Composite Pattern](./design-patterns/composite-pattern/README.md)
+- [Abstract Factory](./design-patterns/abstract-factory/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
