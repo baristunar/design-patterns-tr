@@ -1,0 +1,79 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "baristunar",
+      "name": "Barış Tunar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58105650?v=4",
+      "profile": "https://github.com/baristunar",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "coderserdar",
+      "name": "Serdar GÜL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11051271?v=4",
+      "profile": "https://www.linkedin.com/in/serdar-gül-ba5352126/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "aycanogut",
+      "name": "Aycan Öğüt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74212439?v=4",
+      "profile": "https://www.linkedin.com/in/aycanogut/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "cengizcmataraci",
+      "name": "Cengiz C. Mataracı",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13690848?v=4",
+      "profile": "cengiz.rocks",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "dogancanulgu",
+      "name": "Doğancan Ülgü",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78671556?v=4",
+      "profile": "https://www.linkedin.com/in/dogancanulgu/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "furkanyesilyurt",
+      "name": "Furkan Yesilyurt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52417156?v=4",
+      "profile": "https://f-yesilyurt.medium.com/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "ismailgunayy",
+      "name": "İsmail Günay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29682307?v=4",
+      "profile": "https://github.com/ismailgunayy",
+      "contributions": [
+        "translation"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "design-patterns-tr",
+  "projectOwner": "baristunar"
+}
