@@ -68,6 +68,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "olcaykaplan",
+      "name": "Olcay Kaplan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4987587?v=4",
+      "profile": "https://github.com/olcaykaplan",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,

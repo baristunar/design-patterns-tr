@@ -125,6 +125,9 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
       <td align="center"><a href="https://f-yesilyurt.medium.com/"><img src="https://avatars.githubusercontent.com/u/52417156?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Furkan Yesilyurt</b></sub></a><br /><a href="#translation-furkanyesilyurt" title="Translation">🌍</a></td>
       <td align="center"><a href="https://github.com/ismailgunayy"><img src="https://avatars.githubusercontent.com/u/29682307?v=4?s=100" width="100px;" alt=""/><br /><sub><b>İsmail Günay</b></sub></a><br /><a href="#translation-ismailgunayy" title="Translation">🌍</a></td>
     </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/olcaykaplan"><img src="https://avatars.githubusercontent.com/u/4987587?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Olcay Kaplan</b></sub></a><br /><a href="#translation-olcaykaplan" title="Translation">🌍</a></td>
+    </tr>
   </tbody>
 </table>
 
