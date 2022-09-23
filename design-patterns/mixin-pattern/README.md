@@ -1,6 +1,6 @@
 
 # Mixin Patterns
-Bu yazı , Addy Osmani ve Lydia Hallie tarafından yazılmış olan Learning Patterns (www.patterns.dev) kitabının Mixing Pattern adlı bölümününün Türkçe çevirisini içermektedir . (https://www.patterns.dev/posts/mixin-pattern/)
+Bu yazı , Addy Osmani ve Lydia Hallie tarafından yazılmış olan Learning Patterns (www.patterns.dev) kitabının Mixing Pattern adlı bölümününün Türkçe çevirisini içermektedir .[patterns.dev](https://www.patterns.dev/posts/mixin-pattern/)'den çevirilmiş. 
 
 Mixin, kalıtım kullanmadan,başka bir nesneye veya sınıfa yeniden kullanılabilir işlevsellik (reusable functionality) eklemek için kullanabileceğimiz bir nesnedir.
 
@@ -105,3 +105,7 @@ React (pre ES6)
 Mixin'ler, ES6 sınıflarının tanıtılmadan önce, React bileşenlerine işlevsellik eklemek için sıklıkla kullanılıyordu. React ekibi, bileşenlere gereksiz karmaşıklık ekleyerek bakımını ve yeniden kullanımını zorlaştırdığı için mixinlerin kullanımını önermezler. React ekibi, bunun yerine artık Hooks ile değiştirilebilen, yüksek dereceli bileşenlerin  kullanımını tavsiye eder.
 Mixinler, bir nesnenin prototipine işlevsellik tanıtarak, nesnelere kalıtım kullanmadan, işlevsellik eklememize izin verir. Bir nesnenin prototipini değiştirmek, prototip kirliliğine ve işlevlerimizin kökeni ile ilgili belirsizliğe yol açabileceğinden, kötü bir kullanım olarak görülür.
 
+### Kaynaklar
+
+* [Functional Mixins - Eric Elliott ]( https://medium.com/javascript-scene/functional-mixins-composing-software-ffb66d5e731c)
+* [Mixins - JavaScript Info ]( https://javascript.info/mixins )
