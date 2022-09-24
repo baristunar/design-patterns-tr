@@ -49,6 +49,7 @@ Aşağıdaki tasarım kalıpları Yapısal tasarım kalıplarına örnektir;
 - Private Class Data
 - [Proxy](./design-patterns/proxy-pattern/README.md)
 - [Render Props Pattern](./design-patterns/render-props-pattern/README.md)
+
 ---
 
 ## Behavioral Design Patterns (Davranışsal Tasarım Kalıpları)
@@ -62,7 +63,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - Mediator
 - Memento
 - Null Object
-- Observer
+- [Observer Pattern](./design-patterns/observer-pattern/README.md)
 - State
 - Strategy
 - Template method
@@ -87,6 +88,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [HOC Pattern](./design-patterns/hoc-pattern/README.md)
 - [Composite Pattern](./design-patterns/composite-pattern/README.md)
 - [Abstract Factory](./design-patterns/abstract-factory/README.md)
+- [Observer Pattern](./design-patterns/observer-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
