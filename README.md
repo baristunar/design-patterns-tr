@@ -89,6 +89,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Composite Pattern](./design-patterns/composite-pattern/README.md)
 - [Abstract Factory](./design-patterns/abstract-factory/README.md)
 - [Observer Pattern](./design-patterns/observer-pattern/README.md)
+- [Mixin Pattern](./design-patterns/mixin-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
