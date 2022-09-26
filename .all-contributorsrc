@@ -86,6 +86,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "DenizCansever",
+      "name": "Deniz Cansever",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67337875?v=4",
+      "profile": "https://github.com/DenizCansever",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
