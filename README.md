@@ -14,9 +14,9 @@ Ayrıca kalıplar, geliştiricilerin yazılım etkileşimleri için iyi bilinen,
 
 Tasarım kalıpları 3 ayrı kategoride toplanmaktadır. Bunlar;
 
-- [Creational Design Patterns (Yaratıcı Tasarım Kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
-- [Structural Design Patterns (Yapısal Tasarım Kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
-- [Behavioral Design Patterns (Davranışsal Tasarım Kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
+  - [Creational Design Patterns (Yaratıcı Tasarım Kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
+  - [Structural Design Patterns (Yapısal Tasarım Kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
+  - [Behavioral Design Patterns (Davranışsal Tasarım Kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
 
 ---
 
@@ -26,7 +26,7 @@ Bu tasarım kalıpları tamamen sınıf somutlaştırma ile ilgilidir. Bu model 
 
 Aşağıdaki tasarım kalıpları Yaratıcı tasarım kalıplarına örnektir;
 
-- Abstract Factory
+- [Abstract Factory](./design-patterns/abstract-factory/README.md)
 - [Builder](./design-patterns/builder-pattern/README.md)
 - Factory Method
 - [Prototype](./design-patterns/prototype-pattern/README.md)
@@ -42,12 +42,13 @@ Aşağıdaki tasarım kalıpları Yapısal tasarım kalıplarına örnektir;
 
 - [Adapter](./design-patterns/adapter-pattern/README.md)
 - Bridge
-- Composite
+- [Composite](./design-patterns/composite-pattern/README.md)
 - [Facade](./design-patterns/facade-pattern/README.md)
 - [Decorator](./design-patterns/decorator-pattern/README.md)
 - Flyweight
 - Private Class Data
 - [Proxy](./design-patterns/proxy-pattern/README.md)
+- [Render Props Pattern](./design-patterns/render-props-pattern/README.md)
 
 ---
 
@@ -62,7 +63,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - Mediator
 - Memento
 - Null Object
-- Observer
+- [Observer Pattern](./design-patterns/observer-pattern/README.md)
 - State
 - Strategy
 - Template method
@@ -77,6 +78,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Provider Pattern](./design-patterns/provider-pattern/README.md)
 - [Container/ Presentational Pattern](./design-patterns/container-presentational-pattern/README.md)
 - [Module Pattern](./design-patterns/module-pattern/README.md)
+- [Render Props Pattern](./design-patterns/render-props-pattern/README.md)
 - [Builder Pattern](./design-patterns/builder-pattern/README.md)
 - [Prototype Pattern](./design-patterns/prototype-pattern/README.md)
 - [Facade Pattern](./design-patterns/facade-pattern/README.md)
@@ -84,6 +86,9 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Adapter Pattern](./design-patterns/adapter-pattern/README.md)
 - [Factory Pattern](./design-patterns/factory-pattern/README.md)
 - [HOC Pattern](./design-patterns/hoc-pattern/README.md)
+- [Composite Pattern](./design-patterns/composite-pattern/README.md)
+- [Abstract Factory](./design-patterns/abstract-factory/README.md)
+- [Observer Pattern](./design-patterns/observer-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
@@ -121,6 +126,9 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
       <td align="center"><a href="https://www.linkedin.com/in/dogancanulgu/"><img src="https://avatars.githubusercontent.com/u/78671556?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Doğancan Ülgü</b></sub></a><br /><a href="#translation-dogancanulgu" title="Translation">🌍</a></td>
       <td align="center"><a href="https://f-yesilyurt.medium.com/"><img src="https://avatars.githubusercontent.com/u/52417156?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Furkan Yesilyurt</b></sub></a><br /><a href="#translation-furkanyesilyurt" title="Translation">🌍</a></td>
       <td align="center"><a href="https://github.com/ismailgunayy"><img src="https://avatars.githubusercontent.com/u/29682307?v=4?s=100" width="100px;" alt=""/><br /><sub><b>İsmail Günay</b></sub></a><br /><a href="#translation-ismailgunayy" title="Translation">🌍</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/olcaykaplan"><img src="https://avatars.githubusercontent.com/u/4987587?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Olcay Kaplan</b></sub></a><br /><a href="#translation-olcaykaplan" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>

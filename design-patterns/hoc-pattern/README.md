@@ -29,7 +29,7 @@ const StyledText = withStyles(Text)
 
 Yukarıda, `Button` ve `Text` _component_'lerinin özelleştirilmiş versiyonları olan `StyledButton` ve `StyledText` _component_'lerini oluşturduk. Artık iki _component_ de `withStyles` HOC'si aracılığıyla eklenmiş stilleri içeriyor.
 
-Şimdi de, daha önce [Container/Presentational Pattern](/design-patterns/container-presentational/README.md) içerisinde kullanılmış olan `DogImages` örneğini inceleyelim. Bu uygulama, _API_ üzerinden gelen köpek fotoğraflarını listeliyor.
+Şimdi de, daha önce [Container/Presentational Pattern](/design-patterns/container-presentational-pattern/README.md) içerisinde kullanılmış olan `DogImages` örneğini inceleyelim. Bu uygulama, _API_ üzerinden gelen köpek fotoğraflarını listeliyor.
 
 > Örneğin kodlarına [CodeSandbox](https://codesandbox.io/s/hoc-pattern-1-tzp7i?from-embed) üzerinden erişebilirsiniz.
 
