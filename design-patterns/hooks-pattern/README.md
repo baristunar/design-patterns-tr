@@ -1,5 +1,7 @@
 # Hooks Pattern
 
+> Bu yazı Bu makale [patterns.dev](https://patterns.dev) adresinde yayınlanan [Hooks Pattern](https://www.patterns.dev/posts/hooks-pattern/) makalesinin Türkçe çevirisidir.
+
 ![React Hooks Image](./assets/cover.png)
 
 Uygulamanız içerisindeki bileşenlerde yeniden kullanılabilir bir `stateful logic` oluşturmak için fonksiyonları kullanın.
@@ -475,3 +477,7 @@ Seçim yapma konusunda yardımcı olması adına, Hooklar ve sınıf bileşenler
 | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Birden fazla hiyerarşi sahip yapıları önmeleye ve kodu temiz tutmaya yardımcı olur. | Eğer Devtools ortamında uygulamanızı görmek istiyorsanız ve HOC veya RenderProps kullanıyorsanız uygulamanızı birden fazla hiyerarşiyle yeniden yapılandırmanız gerekir. |  |  |  |
 | React bileşenleri arasında homojenlik sağlar.                                       | Sınıflar, `binding` ve `context` gibi bağlamlar nedeniyle hem insanların hem de makinelerin aklını karıştırır..                                                          |
+
+## Kaynak
+
+- [Hooks Pattern](https://www.patterns.dev/posts/hooks-pattern/)
