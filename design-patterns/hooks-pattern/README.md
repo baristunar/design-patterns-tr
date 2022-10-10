@@ -1,6 +1,6 @@
 # Hooks Pattern
 
-> Bu yazı Bu makale [patterns.dev](https://patterns.dev) adresinde yayınlanan [Hooks Pattern](https://www.patterns.dev/posts/hooks-pattern/) makalesinin Türkçe çevirisidir.
+> Bu makale [patterns.dev](https://patterns.dev) adresinde yayınlanan [Hooks Pattern](https://www.patterns.dev/posts/hooks-pattern/) makalesinin Türkçe çevirisidir.
 
 ![React Hooks Image](./assets/cover.png)
 
