@@ -91,6 +91,8 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Observer Pattern](./design-patterns/observer-pattern/README.md)
 - [Bridge Pattern](./design-patterns/bridge-pattern/README.md)
 - [Mixin Pattern](./design-patterns/mixin-pattern/README.md)
+- [Hooks Pattern](./design-patterns/hooks-pattern/README.md)
+
 
 ### Nasıl Katkıda bulunabilirim?
 
