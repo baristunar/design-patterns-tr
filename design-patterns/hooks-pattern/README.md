@@ -87,12 +87,7 @@ export default class Button extends React.Component {
 
 Sonunda butonumuz istediğimiz şekilde çalışıyor!
 
-<iframe src="https://codesandbox.io/embed/hooks-1-2lp9w?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="hooks-1"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+> Örneğin kodlarına [CodeSandbox](https://codesandbox.io/embed/hooks-1-2lp9w?fontsize=14&hidenavigation=1&theme=dark) üzerinden erişebilirsiniz.
 
 Bu örnekte kullandığımız bileşen küçük bir yapıya sahipti ve bu yüzden refaktör etmesi kolay oldu. Bununla birlikte, gerçek hayatta kullanacağımız bileşenler muhtemelen daha uzun kod satırlarına sahip bir yapıda olacaktır ve refaktör etmesi çok daha zor olacaktır.
 
@@ -128,12 +123,7 @@ Sınıf bileşenlerine daha fazla mantık ekledikçe, bileşenin boyutu hızlıc
 
 Yaşam döngüsü metodlarını kullanmak da kod içerisinde bir çok tekrar yapmaya sebep olabilir. `Counter` ve `Width` isimlerine sahip bileşenlerden oluşan şu örneği inceleyelim.
 
-<iframe src="https://codesandbox.io/embed/hooks-2-bzhpw?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="hooks-2"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+> Örneğin kodlarına [CodeSandbox](https://codesandbox.io/embed/hooks-2-bzhpw?fontsize=14&hidenavigation=1&theme=dark) üzerinden erişebilirsiniz.
 
 `App` bileşeninin yapısını şu şekilde görselleştirebiliriz:
 
@@ -211,12 +201,7 @@ function Input() {
 
 Aynı sınıf bileşenleri ile yaptığımız örnekteki gibi, `input` kutusunun sahip olduğu değer `input` state'i içerisinde tuttuğumuz değere tam olarak eşit. Kullanıcı input kutusuna herhangi bir şey yazdığında, `input` state'inde tutulan değer `setInput` metodu aracılığıyla güncellenecektir.
 
-<iframe src="https://codesandbox.io/embed/hooks-3-oicu6?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="hooks-3"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+> Örneğin kodlarına [CodeSandbox](https://codesandbox.io/embed/hooks-3-oicu6?fontsize=14&hidenavigation=1&theme=dark) üzerinden erişebilirsiniz.
 
 ---
 
@@ -249,12 +234,7 @@ useEffect(() => {
 
 Kod ile deneyelim.
 
-<iframe src="https://codesandbox.io/embed/hooks-4-p237n?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="hooks-4"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+> Örneğin kodlarına [CodeSandbox](https://codesandbox.io/embed/hooks-4-p237n?fontsize=14&hidenavigation=1&theme=dark) üzerinden erişebilirsiniz.
 
 Kullanıcı input kutusuna herhangi bir şey yazdığında bu değer artık konsola da yazdırılacak.
 
@@ -304,12 +284,7 @@ function useKeyPress(targetKey) {
 
 Harika! Artık bu özel hook'u input uygulamamızda kullanabiliriz. Kullanıcı `q`, `l` veya `w` tuşlarından birine bastığında bunu konsola yazdıralım.
 
-<iframe src="https://codesandbox.io/embed/hooks-5-xplez?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="hooks-5"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+> Örneğin kodlarına [CodeSandbox](https://codesandbox.io/embed/hooks-5-xplez?fontsize=14&hidenavigation=1&theme=dark) üzerinden erişebilirsiniz.
 
 Oluşturduğumuz mantığı `Input` bileşeni içerisinde yazmak yerine, `useKeyPress` hook'u içerisinde kullandık ve artık aynı mantığı kod tekrarı yapmadan farklı bileşenler ile kullanabiliriz.
 
@@ -325,12 +300,7 @@ Topluluk tarafından yaratılmış ve kullanıma hazır olan bazı hook'ları bu
 
 Şimdi önceki bölümde incelediğimiz counter ve width örneğini tekrardan yazalım. Bu sefer sınıf bileşenleri yerine React Hook'larını kullanacağız.
 
-<iframe src="https://codesandbox.io/embed/hooks-6-2w0ll?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="hooks-6"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+> Örneğin kodlarına [CodeSandbox](https://codesandbox.io/embed/hooks-6-2w0ll?fontsize=14&hidenavigation=1&theme=dark) üzerinden erişebilirsiniz.
 
 `App` fonksiyonu içerisindeki mantığı birkaç farklı parçaya ayırdık.
 
