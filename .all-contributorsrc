@@ -95,6 +95,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "kadorek",
+      "name": "kadorek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15313515?v=4",
+      "profile": "https://github.com/kadorek",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
