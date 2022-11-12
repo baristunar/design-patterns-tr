@@ -14,9 +14,15 @@ Ayrıca kalıplar, geliştiricilerin yazılım etkileşimleri için iyi bilinen,
 
 Tasarım kalıpları 3 ayrı kategoride toplanmaktadır. Bunlar;
 
+- [Design Patterns (Tasarım Kalıpları, Tasarım Desenleri)](#design-patterns-tasarım-kalıpları-tasarım-desenleri)
+  - [Tasarım Kalıplarının Kullanımları](#tasarım-kalıplarının-kullanımları)
   - [Creational Design Patterns (Yaratıcı Tasarım Kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
   - [Structural Design Patterns (Yapısal Tasarım Kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
   - [Behavioral Design Patterns (Davranışsal Tasarım Kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
+    - [İçindekiler](#i̇çindekiler)
+    - [Nasıl Katkıda bulunabilirim?](#nasıl-katkıda-bulunabilirim)
+    - [Katkıda bulunurken dikkat edilmesi gerekenler](#katkıda-bulunurken-dikkat-edilmesi-gerekenler)
+    - [Katkıda Bulunanlar ❤️🚀](#katkıda-bulunanlar-️)
 
 ---
 
@@ -66,7 +72,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Observer Pattern](./design-patterns/observer-pattern/README.md)
 - State
 - Strategy
-- Template method
+- [Template method](./design-patterns/template-method/README.md)
 - Visitor
 
 ---
@@ -92,7 +98,6 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Bridge Pattern](./design-patterns/bridge-pattern/README.md)
 - [Mixin Pattern](./design-patterns/mixin-pattern/README.md)
 - [Hooks Pattern](./design-patterns/hooks-pattern/README.md)
-
 
 ### Nasıl Katkıda bulunabilirim?
 
