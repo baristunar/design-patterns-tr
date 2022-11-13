@@ -135,6 +135,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
       <td align="center"><a href="http://hatice-surumlu.medium.com/"><img src="https://avatars.githubusercontent.com/u/71832100?v=4?s=100" width="100px;" alt="Haticesurumlu"/><br /><sub><b>Haticesurumlu</b></sub></a><br /><a href="#translation-Haticesurumlu" title="Translation">🌍</a></td>
       <td align="center"><a href="https://github.com/DenizCansever"><img src="https://avatars.githubusercontent.com/u/67337875?v=4?s=100" width="100px;" alt="Deniz Cansever"/><br /><sub><b>Deniz Cansever</b></sub></a><br /><a href="#translation-DenizCansever" title="Translation">🌍</a></td>
       <td align="center"><a href="https://github.com/kadorek"><img src="https://avatars.githubusercontent.com/u/15313515?v=4?s=100" width="100px;" alt="kadorek"/><br /><sub><b>kadorek</b></sub></a><br /><a href="#translation-kadorek" title="Translation">🌍</a></td>
+      <td align="center"><a href="https://burakbalci.vercel.app"><img src="https://avatars.githubusercontent.com/u/96511762?v=4?s=100" width="100px;" alt="Burak"/><br /><sub><b>Burak</b></sub></a><br /><a href="#translation-burak-balci" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
