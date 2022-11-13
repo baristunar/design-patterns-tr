@@ -66,7 +66,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Observer Pattern](./design-patterns/observer-pattern/README.md)
 - State
 - Strategy
-- Template method
+- [Template method](./design-patterns/template-method/README.md)
 - Visitor
 
 ---
@@ -92,7 +92,6 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Bridge Pattern](./design-patterns/bridge-pattern/README.md)
 - [Mixin Pattern](./design-patterns/mixin-pattern/README.md)
 - [Hooks Pattern](./design-patterns/hooks-pattern/README.md)
-
 
 ### Nasıl Katkıda bulunabilirim?
 
