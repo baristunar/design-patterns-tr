@@ -92,7 +92,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Bridge Pattern](./design-patterns/bridge-pattern/README.md)
 - [Mixin Pattern](./design-patterns/mixin-pattern/README.md)
 - [Hooks Pattern](./design-patterns/hooks-pattern/README.md)
-- [Rendering Patterns](./design-patterns/rendering-pattern/README.md)
+- [Rendering Patterns](./design-patterns/rendering-patterns/README.md)
 
 
 ### Nasıl Katkıda bulunabilirim?
