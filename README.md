@@ -14,9 +14,15 @@ Ayrıca kalıplar, geliştiricilerin yazılım etkileşimleri için iyi bilinen,
 
 Tasarım kalıpları 3 ayrı kategoride toplanmaktadır. Bunlar;
 
+- [Design Patterns (Tasarım Kalıpları, Tasarım Desenleri)](#design-patterns-tasarım-kalıpları-tasarım-desenleri)
+  - [Tasarım Kalıplarının Kullanımları](#tasarım-kalıplarının-kullanımları)
   - [Creational Design Patterns (Yaratıcı Tasarım Kalıpları)](#creational-design-patterns-yaratıcı-tasarım-kalıpları)
   - [Structural Design Patterns (Yapısal Tasarım Kalıpları)](#structural-design-patterns-yapısal-tasarım-kalıpları)
   - [Behavioral Design Patterns (Davranışsal Tasarım Kalıpları)](#behavioral-design-patterns-davranışsal-tasarım-kalıpları)
+    - [İçindekiler](#i̇çindekiler)
+    - [Nasıl Katkıda bulunabilirim?](#nasıl-katkıda-bulunabilirim)
+    - [Katkıda bulunurken dikkat edilmesi gerekenler](#katkıda-bulunurken-dikkat-edilmesi-gerekenler)
+    - [Katkıda Bulunanlar ❤️🚀](#katkıda-bulunanlar-️)
 
 ---
 
@@ -45,7 +51,7 @@ Aşağıdaki tasarım kalıpları Yapısal tasarım kalıplarına örnektir;
 - [Composite](./design-patterns/composite-pattern/README.md)
 - [Facade](./design-patterns/facade-pattern/README.md)
 - [Decorator](./design-patterns/decorator-pattern/README.md)
-- Flyweight
+- [Flyweight](./design-patterns/flyweight-pattern/README.md)
 - Private Class Data
 - [Proxy](./design-patterns/proxy-pattern/README.md)
 - [Render Props Pattern](./design-patterns/render-props-pattern/README.md)
@@ -93,6 +99,7 @@ Bu tasarım kalıplarının tamamı `Class`'ın nesne iletişimi ile ilgilidir. 
 - [Mixin Pattern](./design-patterns/mixin-pattern/README.md)
 - [Hooks Pattern](./design-patterns/hooks-pattern/README.md)
 - [Rendering Patterns](./design-patterns/rendering-patterns/README.md)
+- [Flyweight Pattern](./design-patterns/flyweight-pattern/README.md)
 
 ### Nasıl Katkıda bulunabilirim?
 
